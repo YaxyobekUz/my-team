@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,500&display=swap");
 
-html {
-  font-family: "Nunito Sans", sans-serif !important;
+body {
+  font-family: 'Livvic', sans-serif;
+  font-weight: 600;
 }
 
 @tailwind base;
