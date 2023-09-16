@@ -2,7 +2,7 @@ import React from 'react'
 import circleShape from '../assets/images/circle-shape.svg'
 import circleShapes from '../assets/images/circle-shapes.svg'
 
-const Hero = () => {
+const IndexHero = () => {
     return (
         <div className='pt-60 pb-250 z-1'>
             <div className="flex items-center container relative">
@@ -18,4 +18,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default IndexHero
