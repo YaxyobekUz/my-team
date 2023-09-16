@@ -4,6 +4,7 @@ body {
   font-family: 'Livvic', sans-serif;
   font-weight: 600;
   background: #014E56;
+  color: #fff
 }
 
 @tailwind base;

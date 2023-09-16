@@ -59,15 +59,6 @@ export default {
           'sacramento_state_green': '#012F34',
         },
       },
-      backgroundColor: {
-        'midnight_green': '#014E56',
-        'sacramento_state_green': '#012F34',
-        'rapture_blue': '#79C8C7',
-        'light_coral': '#F67E7E',
-      },
-      borderColor: {
-        'sacramento_state_green': '#012F34',
-      },
     },
   },
   plugins: [],
