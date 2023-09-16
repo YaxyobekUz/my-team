@@ -23,13 +23,22 @@ export default {
         '56': '56px',
         '50': '50px',
       },
+      height: {
+        '56': '56px',
+      },
       padding: {
         '140': '140px',
         '100': '100px',
         '76': '76px',
+        '73': '73px',
       },
       margin: {
         '52': '52px',
+      },
+      lineHeight: {
+        '48': '48px',
+        '25': '25px',
+        '18': '18px',
       },
       colors: {
         primary: {

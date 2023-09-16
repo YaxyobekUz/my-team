@@ -1,39 +1,27 @@
-import React from 'react'
-// import { NavLink, Route, Routes } from 'react-router-dom'
+import React from 'react';
+import { RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+
+// pages 
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+
+// layouts 
+import MainRoot from './layouts/MainRoot';
 
 const App = () => {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/' element={<MainRoot />}>
+        <Route index element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+      </Route>
+    )
+  )
   return (
-    // <div>
-    //   <header className="bg-blue-100 text-blue-600 py-1">
-    //     <div className="container flex items-center justify-between">
-    //       <a href="#" className='font-bold text-5xl'>Logo</a>
-    //       <ul className="flex items-center">
-    //         <li>
-    //           <NavLink className='py-5 px-5' to='home'>Home</NavLink>
-    //         </li>
-    //         <li>
-    //           <NavLink className='py-5 px-5' to='about'>About</NavLink>
-    //         </li>
-    //         <li>
-    //           <NavLink className='py-5 px-5' to='contact'>Contact</NavLink>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </header>
-
-    //   <main>  
-    //     <div className="container">
-    //       <Routes>
-    //         <Route path='/' element={<Home/>} />
-    //         <Route path='/about' element={<About/>} />
-    //         <Route path='/contact' element={<Contact/>} />
-    //       </Routes>
-    //     </div>
-    //   </main>
-    // </div>
-    <div className=''>
-      app
-    </div>
+    <RouterProvider router={router} />
   )
 }
 

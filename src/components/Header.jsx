@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className='text-white py-73 lead'>
+      header
+    </header>
   )
 }
 
