@@ -26,8 +26,10 @@ export default {
       fontSize: {
         '100': '100px',
         '18': '18px',
+        '13': '13px',
       },
       height: {
+        '100': '100px',
         '56': '56px',
       },
       padding: {
@@ -45,10 +47,14 @@ export default {
       spacing: {
         '265': '265px',
         '250': '250px',
+        '165': '165px',
         '140': '140px',
       },
       opacity: {
         '8': '8',
+      },
+      gap: {
+        '30px': '30px',
       },
       zIndex: {
         '1': '1',
@@ -58,6 +64,7 @@ export default {
         '5': '5',
       },
       margin: {
+        '56px': '56px',
         '52': '52px',
         '79': '79px',
         '30': '30px',
