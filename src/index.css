@@ -14,4 +14,38 @@ body {
   .container {
     @apply max-w-container_width w-full mx-auto px-5;
   }
+
+  /* buttons primary  */
+
+  .primary-btn_light {
+    @apply text-white py-2.5 px-8 rounded-24 border-2 bg-transparent border-white leading-7 text-18;
+  }
+
+  .primary-btn_light-hover {
+    @apply bg-white text-secondary-dark_green;
+  }
+
+  /* dark  */
+  .primary-btn_dark {
+    @apply bg-transparent rounded-24 text-secondary-sacramento_state_green border-2 border-sacramento_state_green leading-7 text-18;
+  }
+
+  .primary-btn_dark-hover {
+    @apply bg-sacramento_state_green text-white;
+  }
+
+  /* buttons secondary  */
+
+  .secondary-btn_light {
+    @apply text-secondary-sacramento_state_green bg-white py-2.5 px-8 rounded-24 leading-7 text-18;
+  }
+
+  .secondary-btn_light-hover {
+    @apply bg-rapture_blue;
+  }
+
+  /* disabled btn  */
+  .disabled-btn {
+    @apply opacity-25;
+  }
 }

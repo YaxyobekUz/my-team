@@ -23,6 +23,9 @@ export default {
         '56': '56px',
         '50': '50px',
       },
+      fontSize: {
+        '18': '18px',
+      },
       height: {
         '56': '56px',
       },
@@ -31,6 +34,9 @@ export default {
         '100': '100px',
         '76': '76px',
         '73': '73px',
+      },
+      borderRadius: {
+        '24': '24px',
       },
       margin: {
         '52': '52px',
