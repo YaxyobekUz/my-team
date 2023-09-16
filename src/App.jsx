@@ -9,12 +9,14 @@ import Contact from './pages/Contact';
 
 // layouts 
 import MainRoot from './layouts/MainRoot';
+import NoteFoundPage from './pages/NoteFoundPage';
 
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<MainRoot />}>
         <Route index element={<Home />} />
+        <Route path='*' element={<NoteFoundPage />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
       </Route>
