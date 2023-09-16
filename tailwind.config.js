@@ -9,6 +9,7 @@ export default {
       maxWidth: {
         'container_width': '1150px',
         '932': '932px',
+        '917': '917px',
         '635': '635px',
         '540': '540px',
         '515': '515px',
@@ -29,6 +30,7 @@ export default {
         '13': '13px',
       },
       height: {
+        '144': '144px',
         '100': '100px',
         '56': '56px',
       },
