@@ -7,13 +7,20 @@ body {
   font-family: 'Livvic', sans-serif;
   font-weight: 600;
   background: #014E56;
-  color: #fff
+  color: #fff;
+  overflow-x: hidden;
 }
 
 h1 {
   font-size: 100px;
   line-height: 100px;
   font-weight: 700;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
 }
 
 h3 {
@@ -29,6 +36,11 @@ p {
   color: white;
 }
 
+.small-p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+}
 
 @layer components {
   .container {
@@ -73,4 +85,8 @@ p {
   .restangle-shape {
     @apply w-50 h-1 bg-primary-light_coral;
   }
+}
+
+.sdkm {
+  background-position: top;
 }
