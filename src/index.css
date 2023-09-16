@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   font-family: 'Livvic', sans-serif;
@@ -7,9 +10,25 @@ body {
   color: #fff
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+h1 {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: white;
+}
+
 
 @layer components {
   .container {
@@ -48,5 +67,10 @@ body {
   /* disabled btn  */
   .disabled-btn {
     @apply opacity-25;
+  }
+
+  /* restangle shape */
+  .restangle-shape {
+    @apply w-50 h-1 bg-primary-light_coral;
   }
 }
