@@ -1,13 +1,15 @@
 import React from 'react'
 import Hero from '../components/IndexHero'
-import IndexMainTopSection from '../components/IndexMainTopSection'
+import MainTop from '../components/IndexMainTopSection'
+import MainBottom from '../components/IndexMainBottomSection'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
-      <IndexMainTopSection />
-    </div>
+      <MainTop />
+      <MainBottom />
+    </>
   )
 }
 
