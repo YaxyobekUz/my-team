@@ -31,9 +31,9 @@ const App = () => {
     //     </div>
     //   </main>
     // </div>
-    <>
+    <div className=''>
       app
-    </>
+    </div>
   )
 }
 

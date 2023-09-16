@@ -11,6 +11,6 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-containerWidth w-full mx-auto px-5;
+    @apply max-w-container_width w-full mx-auto px-5;
   }
 }
