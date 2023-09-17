@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../components/AboutPageHero';
+import DirectorsInfo from '../components/AboutPageDirectorsInfo';
+import ClientsInfo from '../components/AboutPageClientsInfo';
 
 const About = () => {
   return (
-    <div className="container">
-      <h1 className="text-center">About</h1>
-    </div>
+    <>
+      <Hero />
+      <DirectorsInfo />
+      <ClientsInfo />
+    </>
   )
-}
+};
 
 export default About
