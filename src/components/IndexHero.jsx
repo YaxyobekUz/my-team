@@ -4,7 +4,7 @@ import circleShapes from '../assets/images/circle-shapes.svg'
 
 const IndexHero = () => {
     return (
-        <div className='pt-60 pb-250'>
+        <div className='pt-120 pb-250'>
             <div className="flex items-center container relative">
                 <h1 className="text-100 max-w-635 w-full leading-100 font-bold mr-30">Find the <br /> best <span className="text-primary-light_coral">talent</span></h1>
                 <div>

@@ -4,7 +4,7 @@ import Logo from '../assets/images/myteam-logo.svg';
 
 const Header = () => {
   return (
-    <header className='text-white py-70'>
+    <header className='text-white pt-70'>
       <div className="flex container items-center justify-between">
         {/* logo  */}
         <Link to='/'>
