@@ -161,3 +161,35 @@ p {
 .transition-transform-opacity {
   transition: rotate 150ms linear, transfom 150ms linear, opacity 150ms linear, translate 150ms linear, scale 150ms linear;
 }
+
+.homepage-navbar{
+  transition: transform 0.3s linear;
+}
+
+.hamburger-btn {
+  transition: rotate 0.3s linear;
+}
+
+.hamburger-btn span:nth-child(1) {
+  transform: translateY(-7px);
+}
+
+.hamburger-btn span:nth-child(3) {
+  transform: translateY(7px);
+}
+
+.hamburger-btn_active span {
+  transition: transform 0.3s linear;
+}
+
+.hamburger-btn_active {
+  rotate: 135deg;
+}
+
+.hamburger-btn_active span:nth-child(1) {
+  transform: translateY(0px);
+}
+
+.hamburger-btn_active span:nth-child(3) {
+  transform: translateY(0px) rotate(90deg);
+}

@@ -24,6 +24,7 @@ export default {
         '72': '72px',
         '56': '56px',
         '50': '50px',
+        '20px': '20px',
       },
       fontSize: {
         '100': '100px',
@@ -37,6 +38,8 @@ export default {
         '144': '144px',
         '100': '100px',
         '56': '56px',
+        '17': '17px',
+        '3px': '3px',
       },
       padding: {
         '250': '250px',
@@ -99,6 +102,9 @@ export default {
           'sacramento_state_green': '#012F34',
         },
       },
+    },
+    screens:{
+      '640':'640px',
     },
   },
   plugins: [],

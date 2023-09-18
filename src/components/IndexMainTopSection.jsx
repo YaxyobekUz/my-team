@@ -2,12 +2,12 @@ import React from 'react';
 import boyImg from '../assets/images/boy-icon.svg';
 import parameterImg from '../assets/images/parameter-icon.svg';
 import statisticsImg from '../assets/images/statistics-icon.svg';
-import shapeImg from '../assets/images/circle-shape1.svg';
+import shapeImg from '../assets/images/homepage_circleshape.svg';
 
 const IndexMainTopSection = () => {
     return (
-        <section className='bg-secondary-sacramento_state_green py-140'>
-            <div className="grid container grid-cols-2 gap-5 justify-between items-start relative">
+        <section className='bg-secondary-sacramento_state_green py-140 relative'>
+            <div className="grid container grid-cols-2 gap-5 justify-between items-start">
                 <div>
                     <div className="restangle-shape mb-52"></div>
                     <h2 className="max-w-445">Build & manage distributed teams like no one else.</h2>
@@ -35,8 +35,8 @@ const IndexMainTopSection = () => {
                         </div>
                     </li>
                 </ul>
-                <img width={200} height={244} className='absolute -right-265 -bottom-140' src={shapeImg} alt="" aria-hidden='true' />
             </div>
+            <img width={100} height={244} className='absolute right-0 bottom-0 object-cover object-left' src={shapeImg} alt="" aria-hidden='true' />
         </section>
     )
 }
