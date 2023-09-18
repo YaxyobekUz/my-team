@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
 body {
   font-family: 'Livvic', sans-serif;
   font-weight: 600;

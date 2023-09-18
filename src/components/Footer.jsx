@@ -15,10 +15,10 @@ const Footer = () => {
           <nav className='flex items-center justify-between w-full leading-7'>
             <ul className='flex items-center space-x-10'>
               <li>
-                <NavLink className={'hover:text-primary-light_coral transition-colors text-18'} to='/'>Home</NavLink>
+                <NavLink className={'hover:text-primary-light_coral transition-colors text-18 rounded-sm'} to='/'>Home</NavLink>
               </li>
               <li>
-                <NavLink className={'hover:text-primary-light_coral transition-colors text-18'} to='about'>About</NavLink>
+                <NavLink className={'hover:text-primary-light_coral transition-colors text-18 rounded-sm'} to='about'>About</NavLink>
               </li>
             </ul>
           </nav>
