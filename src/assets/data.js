@@ -6,6 +6,7 @@ import cristianImg from './images/cristian.png';
 import cruzImg from './images/cruz.png';
 import drakeImg from './images/drake.png';
 import griffinImg from './images/griffin.png';
+import adenImg from './images/aden.png';
 export const homePageAboutPeople = [
     {
         id: 1,
@@ -29,3 +30,60 @@ export const homePageAboutPeople = [
         img: arthurImg,
     },
 ];
+
+export const directorsInfo = [
+    {
+        id: 1,
+        name: 'Nikita Marks',
+        description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+        job: 'Founder & CEO',
+        img: nikitaImg,
+        twitter: 'https://twitter.com',
+        linkedin: 'https://linkedin.com',
+    },
+    {
+        id: 2,
+        name: 'Cristian Duncan',
+        description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+        job: 'Co-founder & COO',
+        img: cristianImg,
+        twitter: 'https://twitter.com',
+        linkedin: 'https://linkedin.com',
+    },
+    {
+        id: 3,
+        name: 'Cruz Hamer',
+        description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+        job: 'Co-founder & CTO',
+        img: cruzImg,
+        twitter: 'https://twitter.com',
+        linkedin: 'https://linkedin.com',
+    },
+    {
+        id: 4,
+        name: 'Drake Heaton',
+        description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+        job: 'Business Development Lead',
+        img: drakeImg,
+        twitter: 'https://twitter.com',
+        linkedin: 'https://linkedin.com',
+    },
+    {
+        id: 5,
+        name: 'Griffin Wise',
+        description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+        job: 'Lead Marketing',
+        img: griffinImg,
+        twitter: 'https://twitter.com',
+        linkedin: 'https://linkedin.com',
+    },
+    {
+        id: 6,
+        name: 'Aden Allan',
+        description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+        job: 'Co-founder',
+        img: adenImg,
+        twitter: 'https://twitter.com',
+        linkedin: 'https://linkedin.com',
+    },
+]
