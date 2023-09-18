@@ -1,6 +1,11 @@
 import kadyImg from './images/kady.png';
 import aishaImg from './images/aisha.png';
 import arthurImg from './images/arthur.png';
+import nikitaImg from './images/nikita.png';
+import cristianImg from './images/cristian.png';
+import cruzImg from './images/cruz.png';
+import drakeImg from './images/drake.png';
+import griffinImg from './images/griffin.png';
 export const homePageAboutPeople = [
     {
         id: 1,
@@ -23,4 +28,4 @@ export const homePageAboutPeople = [
         job: 'Co-founder of MyPhysio',
         img: arthurImg,
     },
-]
+];

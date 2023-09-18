@@ -16,6 +16,7 @@ export default {
         '457': '457px',
         '445': '445px',
         '350': '350px',
+        '254': '254px',
         '240': '240px',
       },
       width: {
@@ -43,6 +44,7 @@ export default {
         '73': '73px',
         '70': '70px',
         '60': '60px',
+        '56px': '56px',
       },
       borderRadius: {
         '24': '24px',

@@ -69,7 +69,7 @@ p {
   /* buttons secondary  */
 
   .secondary-btn_light {
-    @apply  text-secondary-sacramento_state_green bg-white py-2.5 px-8 rounded-24 leading-7 text-18;
+    @apply text-secondary-sacramento_state_green bg-white py-2.5 px-8 rounded-24 leading-7 text-18;
   }
 
   .secondary-btn_light-hover {
@@ -87,6 +87,26 @@ p {
   }
 }
 
-.sdkm {
-  background-position: top;
+@keyframes cardAnm {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.directors-card {
+  animation: cardAnm 0.35s ease;
+  opacity: 1;
+}
+
+.plus-btn_active {
+  rotate: -45deg;
+  background: #79C8C7;
+}
+
+.transition-transform-opacity {
+  transition: rotate 150ms linear, transfom 150ms linear, opacity 150ms linear, translate 150ms linear, scale 150ms linear;
 }
