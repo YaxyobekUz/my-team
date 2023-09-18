@@ -90,6 +90,52 @@ p {
   .restangle-shape {
     @apply w-50 h-1 bg-primary-light_coral;
   }
+
+  /* input  */
+
+  .light-input_sytles {
+    @apply w-full pt-6 px-3 pb-4 border-b text-white border-white placeholder:text-opacity-6 small-p bg-transparent outline-offset-8;
+  }
+}
+
+.warning {
+  display: none;
+}
+
+.email-input:invalid~.company-name-input {
+  padding-top: 17px;
+}
+
+.email-input:invalid:placeholder-shown~.company-name-input {
+  padding-top: 24px;
+}
+
+.email-input:invalid~.warning {
+  display: inline-block;
+}
+
+.email-input:invalid:placeholder-shown~.warning {
+  display: none;
+}
+
+.light-input_sytles:focus {
+  outline: none;
+}
+
+.light-input_sytles:focus::placeholder {
+  color: #ffffffcc;
+}
+
+.light-input_sytles:valid {
+  border-color: #79C8C7;
+}
+
+.light-input_sytles:invalid {
+  border-color: #F67E7E;
+}
+
+.light-input_sytles:placeholder-shown {
+  border-color: #FFF;
 }
 
 @keyframes cardAnm {

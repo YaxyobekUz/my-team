@@ -27,7 +27,7 @@ const AboutPageDirectorsInfo = () => {
                                     <img width={96} height={96} src={e.img} alt={`${e.name} profile image`} className="mb-4 rounded-full border-2 border-secondary-rapture_blue" />
                                     <h3 className="text-secondary-rapture_blue">{e.name}</h3>
                                     <p className="italic small-p font-[500!important]">{e.job}</p>
-                                    <button onClick={() => toggleDirectorState(index)} className={`flex absolute items-center justify-center -bottom-7 rounded-full bg-primary-light_coral w-56 h-56 z-1 transition-colors transition-transform-opacity plus-btn ${directorStates[index] ? 'plus-btn_active' : ''}`}>
+                                    <button onClick={() => toggleDirectorState(index)} className={`flex absolute items-center justify-center -bottom-7 rounded-full bg-primary-light_coral w-56 h-56 z-1 transition-colors transition-transform-opacity plus-btn hover:bg-secondary-rapture_blue ${directorStates[index] ? 'plus-btn_active' : ''}`}>
                                         <img width={16} height={16} src={plusIcon} alt="plus icon" />
                                     </button>
                                     {/* about  */}

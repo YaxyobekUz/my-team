@@ -1,10 +1,11 @@
 import React from 'react'
+import ContactPageMainContent from '../components/ContactPageMainContent'
 
 const Contact = () => {
   return (
-    <div className="container">
-      <h1 className="text-center">Contact</h1>
-    </div>
+    <>
+      <ContactPageMainContent />
+    </>
   )
 }
 

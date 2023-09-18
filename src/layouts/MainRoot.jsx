@@ -11,7 +11,6 @@ const MainRoot = () => {
       <main className='grow'>
         <Outlet />
       </main>
-      <Cta />
       <Footer />
     </div>
   )
