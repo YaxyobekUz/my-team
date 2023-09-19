@@ -1,6 +1,6 @@
-import React from 'react'
-import circleShape from '../assets/images/circle-shape.svg'
-import circleShapes from '../assets/images/circle-shapes.svg'
+import React from 'react';
+import circleShape from '../assets/images/circle-shape.svg';
+import circleShapes from '../assets/images/circle-shapes.svg';
 
 const IndexHero = () => {
     return (
@@ -12,7 +12,7 @@ const IndexHero = () => {
                     <p className="max-w-445 max-940:text-base max-940:leading-7 mt-auto max-730:text-15 max-730:mt-0">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
                 </div>
                 <img width={200} height={200} className='absolute -left-265' src={circleShape} alt="" aria-hidden='true' />
-                <img width={358} height={100} className='flex items-start absolute -bottom-250 right-5 object-cover object-top h-100 max-730:right-auto' src={circleShapes} alt="" aria-hidden='true' />
+                <img width={358} height={100} className='absolute -bottom-250 right-5 object-cover object-top h-100 max-730:right-auto max-540:-bottom-56 max-370:-bottom-48' src={circleShapes} alt="" aria-hidden='true' />
             </div>
         </div>
     )
