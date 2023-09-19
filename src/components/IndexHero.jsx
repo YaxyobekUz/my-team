@@ -5,14 +5,14 @@ import circleShapes from '../assets/images/circle-shapes.svg'
 const IndexHero = () => {
     return (
         <div className='pt-120 pb-250'>
-            <div className="flex items-center container relative">
-                <h1 className="text-100 max-w-635 w-full leading-100 font-bold mr-30">Find the <br /> best <span className="text-primary-light_coral">talent</span></h1>
-                <div>
-                    <div className='restangle-shape mb-79 bg-secondary-rapture_blue'></div>
-                    <p className="max-w-445">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
+            <div className="flex items-stretch gap-30px container relative max-730:flex-col max-730:items-center max-730:text-center max-730:gap-6 max-730:text-64 max-730:leading-56">
+                <h1 className="text-100 max-w-635 leading-100 font-bold mr-auto max-1050:text-80 max-1050:leading-88 max-940:text-7xl max-940:w-full max-940:max-w-max max-800:text-68 max-800:leading-68 max-730:m-0">Find the <br /> best <span className="text-primary-light_coral">talent</span></h1>
+                <div className='flex flex-col max-h-full relative'>
+                    <div className="restangle-shape bg-secondary-rapture_blue max-730:hidden"></div>
+                    <p className="max-w-445 max-940:text-base mt-auto max-730:mt-0">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
                 </div>
                 <img width={200} height={200} className='absolute -left-265' src={circleShape} alt="" aria-hidden='true' />
-                <img width={358} height={100} className='flex items-start absolute -bottom-250 right-5 object-cover object-top h-1/2' src={circleShapes} alt="" aria-hidden='true' />
+                <img width={358} height={100} className='flex items-start absolute -bottom-250 right-5 object-cover object-top h-1/2 max-730:right-auto' src={circleShapes} alt="" aria-hidden='true' />
             </div>
         </div>
     )
