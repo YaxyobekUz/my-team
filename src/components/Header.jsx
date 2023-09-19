@@ -9,7 +9,7 @@ const Header = () => {
     setActive(!active);
   }
   return (
-    <header className='text-white pt-70'>
+    <header className='text-white pt-70 max-730:pt-16 max-540:pt-14 max-370:pt-12'>
       <div className="flex container items-center justify-between">
         {/* logo  */}
         <Link className='rounded-sm focus:outline-offset-4' to='/'>

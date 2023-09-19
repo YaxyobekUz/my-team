@@ -162,7 +162,7 @@ p {
   transition: rotate 150ms linear, transfom 150ms linear, opacity 150ms linear, translate 150ms linear, scale 150ms linear;
 }
 
-.homepage-navbar{
+.homepage-navbar {
   transition: transform 0.3s linear;
 }
 
@@ -192,4 +192,56 @@ p {
 
 .hamburger-btn_active span:nth-child(3) {
   transform: translateY(0px) rotate(90deg);
+}
+
+@media only screen and (max-width:940px) {
+  h1 {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  h2 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  h1 {
+    font-size: 67px;
+    line-height: 67px;
+  }
+
+  h2 {
+    font-size: 37px;
+    line-height: 37px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width:730px) {
+  h1 {
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .restangle-shape {
+    display: none;
+  }
 }
