@@ -77,6 +77,7 @@ export default {
         '6': '0.6',
       },
       gap: {
+        '56px': '56px',
         '30px': '30px',
       },
       zIndex: {

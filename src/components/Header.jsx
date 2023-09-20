@@ -31,7 +31,7 @@ const Header = () => {
               <NavLink className={'hover:text-primary-light_coral transition-colors text-18 rounded-sm'} to='about'>About</NavLink>
             </li>
           </ul>
-          <NavLink className={'primary-btn_light hover:primary-btn_light-hover transition-colors z-1 bg-secondary-police_blue'} to='contact'>contact us</NavLink>
+          <NavLink className={'primary-btn_light hover:primary-btn_light-hover transition-colors z-1'} to='contact'>contact us</NavLink>
           <img width={200} height={200} className='hidden max-640:block absolute bottom-0 -right-100 z-0' src={circleShape} alt="this is circle shape" />
         </nav>
         {/* hamburger btn  */}
