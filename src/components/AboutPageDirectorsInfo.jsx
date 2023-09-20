@@ -14,12 +14,12 @@ const AboutPageDirectorsInfo = () => {
     };
 
     return (
-        <section className='py-140 bg-secondary-deep_jungle_green relative'>
-            <img width={200} height={200} className='absolute -left-100 top-0' src={circleShape} alt="circle shape" />
+        <section className='py-140 bg-secondary-deep_jungle_green relative max-730:py-100'>
+            <img width={200} height={200} className='absolute -left-100 top-0 max-730:h-100 object-cover max-730:object-bottom' src={circleShape} alt="circle shape" />
             {/* main content  */}
             <div className="container">
-                <h2 className="text-center max-w-917 mx-auto mb-16">Meet the directors</h2>
-                <ul className="grid grid-cols-3 gap-30px gap-y-12">
+                <h2 className="text-center max-w-917 mx-auto mb-16 max-940:mb-14 max-730:mb-12">Meet the directors</h2>
+                <ul className="grid grid-cols-3 gap-30px gap-y-12 max-800:gap-5 max-730:grid-cols-2 max-730:gap-2.5 max-730:max-w-573 max-730:mx-auto max-540:grid-cols-1 max-540:gap-6">
                     {
                         directorsInfo.map((e, index) => {
                             return (
@@ -31,9 +31,9 @@ const AboutPageDirectorsInfo = () => {
                                         <img width={16} height={16} src={plusIcon} alt="plus icon" />
                                     </button>
                                     {/* about  */}
-                                    <div className={`${directorStates[index] ? 'flex' : 'hidden'} absolute bg-secondary-sacramento_state_green top-0 right-0 left-0 bottom-0 flex-col py-9 px-12 w-full h-full items-center directors-card`}>
+                                    <div className={`${directorStates[index] ? 'flex' : 'hidden'} absolute bg-secondary-sacramento_state_green top-0 right-0 left-0 bottom-0 flex-col py-9 px-12 w-full h-full items-center directors-card max-1050:px-10 max-1050:py-7 max-940:px-5 max-800:px-3 max-730:px-6 max-730:pt-9 max-730:pb-12 max-540:px-56px max-370:px-10`}>
                                         <h3 className="text-secondary-rapture_blue mb-2">{e.name}</h3>
-                                        <p className="max-w-254 mb-6 small-p">{e.description}</p>
+                                        <p className="max-w-254 mb-6 small-p max-940:mb-4 max-800:mb-3 max-540:max-w-max max-540:mb-6">{e.description}</p>
                                         <ul className="flex items-center space-x-4">
                                             <li>
                                                 <a href={e.twitter} target='_blank'>
