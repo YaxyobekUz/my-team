@@ -14,7 +14,7 @@ const AboutPageDirectorsInfo = () => {
     };
 
     return (
-        <section className='py-140 bg-secondary-deep_jungle_green relative max-730:py-100'>
+        <section className='py-140 bg-secondary-deep_jungle_green relative max-730:py-100 z-2'>
             <img width={200} height={200} className='absolute -left-100 top-0 max-730:h-100 object-cover max-730:object-bottom' src={circleShape} alt="circle shape" />
             {/* main content  */}
             <div className="container">
